@@ -15,6 +15,7 @@ func main() {
 	go modify(&str)
 	<-c
 	fmt.Println("完成!", str)
+
 }
 
 func modify(ret *string) {
